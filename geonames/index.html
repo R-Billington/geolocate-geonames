@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AJAX/PHP/CURL/JSON exercise</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON exercise">
+		<meta name="author" content="Robin Billington">
+	</head>
+
+	<body>
+		<select id="selectCountry">
+			<option value="GB">Great Britain</option>
+			<option value="FR">France</option>
+			<option value="DE">Germany</option>
+			<option value="IN">India</option>
+            <option value="RU">Russia</option>
+            <option value="BR">Brazil</option>
+            <option value="JP">Japan</option>
+		</select>
+
+		<select id="selectLanguage">
+			<option value="en">English</option>
+			<option value="fr">Francais</option>
+			<option value="de">Deutsche</option>
+		</select>
+
+		<button id="runBtn">Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			<table>
+				<tr>
+					<td>
+						Continent: 
+					</td>
+					<td id="continentResult">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Capital: 
+					</td>
+					<td id="capitalResult">	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Languages: 
+					</td>
+					<td id="languagesResult">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Population: 
+					</td>
+					<td id="populationResult">
+					</td>
+				</tr>
+                <tr>
+					<td>
+						Currency:
+					</td>
+					<td id="currencyResult">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Area (km<sup>2</sup>): 
+					</td>
+					<td id="areaResult">
+					</td>
+				</tr>
+			</table>
+
+		</div>
+		<script type="application/javascript" src="./libs/js/jquery-3.5.1"></script>
+		<script type="application/javascript" src="./libs/js/script"></script>
+	</body>
+</html>
