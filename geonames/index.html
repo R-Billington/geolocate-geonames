@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AJAX/PHP/CURL/JSON exercise</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON exercise">
+		<meta name="author" content="Robin Billington">
+        <link rel="stylesheet" type="text/css" href="./libs/css/style.css">
+	</head>
+
+	<body>
+        
+        <table>
+            <tr>
+                <th>API Name</th>
+                <th>API Description</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>1: Neighbours</td>
+                <td>Select a country and find its neighbours: 
+                    <select id="selectCountry">
+                        <option value="IN">India</option>
+                        <option value="RU">Russia</option>
+                        <option value="BR">Brazil</option>
+                    </select>
+                </td>
+                <td>
+                    <button id="neighbourBtn">Submit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2: Timezone</td>
+                <td>Enter coordinates and find the timezone: 
+                    <br/>
+                    Latitude:<input type="number" id="timeLat" min="-90" max="90">
+                    <br/>
+                    Longitude:<input type="number" id="timeLong" min="180" max="180">
+                </td>
+                <td>
+                    <button id="timeBtn">Submit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3: Nearby placename</td>
+                <td>Enter coordinates and find the nearest placename: 
+                    <br/>
+                    Latitude:<input type="number" id="placeLat" min="-90" max="90">
+                    <br/>
+                    Longitude:<input type="number" id="placeLong" min="180" max="180">
+                </td>
+                <td>
+                    <button id="placeBtn">Submit</button>
+                </td>
+            </tr>
+            <tr>
+                <td id="result" colspan="3"></td>
+            </tr>
+        </table>
+        
+        
+    
+
+		</div>
+		<script type="application/javascript" src="./libs/js/jquery-3.5.1"></script>
+		<script type="application/javascript" src="./libs/js/script"></script>
+	</body>
+</html>
